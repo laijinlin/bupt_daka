@@ -12,68 +12,68 @@ REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
 # 全部填完，不要提交，f12打开控制台，在Console页面下输入代码 console.log(vm.info) 就会得到以下信息，之后每天就默认填以下信息
 INFO = r"""{
        address: "北京市海淀区北太平庄街道北京邮电大学北京邮电大学海淀校区"
-area: "北京市  海淀区"
-bztcyy: ""
-city: "北京市"
-created: 1638576067
-csmjry: "0"
-date: "20211204"
-fjsj: "20210902"
-fxyy: "开学"
-geo_api_info: "{\"type\":\"complete\",\"position\":{\"Q\":39.96357421875,\"R\":116.355681966146,\"lng\":116.355682,\"lat\":39.963574},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":34.929,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110108\",\"businessAreas\":[{\"name\":\"北下关\",\"id\":\"110108\",\"location\":{\"Q\":39.955976,\"R\":116.33873,\"lng\":116.33873,\"lat\":39.955976}},{\"name\":\"小西天\",\"id\":\"110108\",\"location\":{\"Q\":39.957147,\"R\":116.364058,\"lng\":116.364058,\"lat\":39.957147}},{\"name\":\"西直门\",\"id\":\"110102\",\"location\":{\"Q\":39.942856,\"R\":116.34666099999998,\"lng\":116.346661,\"lat\":39.942856}}],\"neighborhoodType\":\"科教文化服务;学校;高等院校\",\"neighborhood\":\"北京邮电大学\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"师大北路\",\"streetNumber\":\"3层\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"海淀区\",\"towncode\":\"110108008000\",\"township\":\"北太平庄街道\"},\"formattedAddress\":\"北京市海淀区北太平庄街道北京邮电大学北京邮电大学海淀校区\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}"
-glksrq: ""
-gllx: ""
-gtjzzfjsj: ""
-gwszdd: ""
-id: 15674820
-ismoved: 0
-jcbhlx: ""
-jcbhrq: ""
-jchbryfs: ""
-jcjg: ""
-jcjgqr: "0"
-jcqzrq: ""
-jcwhryfs: ""
-jhfjhbcc: ""
-jhfjjtgj: ""
-jhfjrq: ""
-jhfjsftjhb: "0"
-jhfjsftjwh: "0"
-jrsfqzfy: ""
-jrsfqzys: ""
-mjry: "0"
-province: "北京市"
-qksm: ""
-remark: ""
-sfcxtz: "0"
-sfcxzysx: "0"
-sfcyglq: "0"
-sfjcbh: "0"
-sfjchbry: "0"
-sfjcqz: ""
-sfjcwhry: "0"
-sfjzdezxgym: 1
-sfjzxgym: 1
-sfsfbh: 0
-sfsqhzjkk: 0
-sftjhb: "0"
-sftjwh: "0"
-sfxk: 0
-sfygtjzzfj: 0
-sfyqjzgc: ""
-sfyyjc: "0"
-sfzx: 1
-sqhzjkkys: ""
-szcs: ""
-szgj: ""
-szsqsfybl: 0
-tw: "3"
-uid: "79218"
-xjzd: "北京邮电大学学五楼1413"
-xkqq: ""
-xwxgymjzqk: 3
-ymjzxgqk: "已接种北京科兴疫苗第一针和第二针"
-zgfxdq: "0"
+       area: "北京市  海淀区"
+       bztcyy: ""
+       city: "北京市"
+       created: 1638576067
+       csmjry: "0"
+       date: "20211204"
+       fjsj: "20210902"
+       fxyy: "开学"
+       geo_api_info: "{\"type\":\"complete\",\"position\":{\"Q\":39.96357421875,\"R\":116.355681966146,\"lng\":116.355682,\"lat\":39.963574},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":34.929,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"010\",\"adcode\":\"110108\",\"businessAreas\":[{\"name\":\"北下关\",\"id\":\"110108\",\"location\":{\"Q\":39.955976,\"R\":116.33873,\"lng\":116.33873,\"lat\":39.955976}},{\"name\":\"小西天\",\"id\":\"110108\",\"location\":{\"Q\":39.957147,\"R\":116.364058,\"lng\":116.364058,\"lat\":39.957147}},{\"name\":\"西直门\",\"id\":\"110102\",\"location\":{\"Q\":39.942856,\"R\":116.34666099999998,\"lng\":116.346661,\"lat\":39.942856}}],\"neighborhoodType\":\"科教文化服务;学校;高等院校\",\"neighborhood\":\"北京邮电大学\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"师大北路\",\"streetNumber\":\"3层\",\"country\":\"中国\",\"province\":\"北京市\",\"city\":\"\",\"district\":\"海淀区\",\"towncode\":\"110108008000\",\"township\":\"北太平庄街道\"},\"formattedAddress\":\"北京市海淀区北太平庄街道北京邮电大学北京邮电大学海淀校区\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}"
+       glksrq: ""
+       gllx: ""
+       gtjzzfjsj: ""
+       gwszdd: ""
+       id: 15674820
+       ismoved: 0
+       jcbhlx: ""
+       jcbhrq: ""
+       jchbryfs: ""
+       jcjg: ""
+       jcjgqr: "0"
+       jcqzrq: ""
+       jcwhryfs: ""
+       jhfjhbcc: ""
+       jhfjjtgj: ""
+       jhfjrq: ""
+       jhfjsftjhb: "0"
+       jhfjsftjwh: "0"
+       jrsfqzfy: ""
+       jrsfqzys: ""
+       mjry: "0"
+       province: "北京市"
+       qksm: ""
+       remark: ""
+       sfcxtz: "0"
+       sfcxzysx: "0"
+       sfcyglq: "0"
+       sfjcbh: "0"
+       sfjchbry: "0"
+       sfjcqz: ""
+       sfjcwhry: "0"
+       sfjzdezxgym: 1
+       sfjzxgym: 1
+       sfsfbh: 0
+       sfsqhzjkk: 0
+       sftjhb: "0"
+       sftjwh: "0"
+       sfxk: 0
+       sfygtjzzfj: 0
+       sfyqjzgc: ""
+       sfyyjc: "0"
+       sfzx: 1
+       sqhzjkkys: ""
+       szcs: ""
+       szgj: ""
+       szsqsfybl: 0
+       tw: "3"
+       uid: "79218"
+       xjzd: "北京邮电大学学五楼1413"
+       xkqq: ""
+       xwxgymjzqk: 3
+       ymjzxgqk: "已接种北京科兴疫苗第一针和第二针"
+       zgfxdq: "0"
         }"""
 
 REASONABLE_LENGTH = 24
